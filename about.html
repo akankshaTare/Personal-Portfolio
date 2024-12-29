@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #161b22;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            color: #58a6ff;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #c9d1d9;
+        }
+
+        nav a.active {
+            color: #58a6ff;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 100px 40px;
+        }
+
+        .about-container img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-container .text-content {
+            max-width: 600px;
+        }
+
+        .about-container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #58a6ff;
+        }
+
+        .about-container p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #c9d1d9;
+        }
+
+        .about-container p:hover {
+            color: #58a6ff;
+            transition: color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="project.html">Project</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about-container">
+        
+        <img src="2.5.jpg" alt="Profile Picture">
+        <div class="text-content">
+            <h1>About Me</h1>
+            <p>I'm the student of third year Bsc.Computer Science MGM university, Dr.G.Y. Pathrikar college of Cs & IT. 
+                 graduating with a degree in Computer Science and a passion for software development.
+                 Proficient in Java and Python or Frontend web-development . Eager to contribute to a dynamic team and 
+                 apply problem-solving skills in a collaborative environment.
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

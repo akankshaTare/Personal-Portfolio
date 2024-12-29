@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #161b22;
+        }
+
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #58a6ff;
+        }
+
+        header nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        header nav a {
+            color: #c9d1d9;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #58a6ff;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #58a6ff;
+        }
+
+        .department h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #58a6ff;
+        }
+
+        .certificates-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 20px;
+            align-items: center;
+        }
+
+        .certificate {
+            background-color: #161b22;
+            border: 2px solid #58a6ff;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 300px; /* Adjusted size */
+        }
+
+        .certificate:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #58a6ff;
+        }
+
+        .certificate img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .certificate .title {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #c9d1d9;
+            padding: 10px;
+            background-color: #0d1117;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container h1 {
+                font-size: 2rem;
+            }
+
+            .certificate .title {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>My Certificates</h1>
+
+        <!-- IT Department Section -->
+        <div class="department">
+            <div class="certificates-grid">
+                <div class="certificate">
+                    <img src="Akanksha_Arjun_Tare[1].png" alt="Certificate 1">
+                    <div class="title">Web Development Hackathon Certificate</div>
+                </div>
+                <div class="certificate">
+                    <img src="img 69.jpg" alt="Certificate 2">
+                    <div class="title">CODE'A'THON 2K24 Certificate</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #161b22;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            color: #58a6ff;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #c9d1d9;
+        }
+
+        nav a.active {
+            color: #58a6ff;
+        }
+
+        .projects-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .projects-container h1 {
+             font-size: 3rem;
+            color: #58a6ff;
+            margin-bottom: 30px;
+            text-align: center;
+            margin-top: 20px; /* Adds space above the heading */
+        }
+
+
+
+        .project-card {
+            background-color: #161b22;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .project-card h2 {
+            font-size: 1.8rem;
+            color: #58a6ff;
+        }
+
+        .project-card img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #c9d1d9;
+        }
+
+        .project-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 1rem;
+            color: #0d1117;
+            background-color: #58a6ff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .project-card a:hover {
+            background-color: #1f6feb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html" class="active">Project</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="projects-container">
+        <h1>My Projects</h1>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h2>Password Manager or Retrieval</h2>
+            <img src="088.png" alt="Password Manager Screenshot">
+            <p>A secure and user-friendly application to store and retrieve your passwords easily.</p>
+            <a href="https://github.com/akankshaTare/Password-Manager.git" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h2>OTP Verification</h2>
+            <img src="otp.png" alt="OTP Verification Screenshot">
+            <p>A project to implement and verify One-Time Passwords for secure authentication.</p>
+            <a href="https://github.com/akankshaTare/OTP-verification.git" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <h2>Weather Forecast App</h2>
+            <img src="99.9.png" alt="Weather Forecast Screenshot">
+            <p>This code integrates interactive weather details and map visualization to enhance user experience.</p>
+            <a href="https://github.com/akankshaTare/Weather-Forcasting.git" target="_blank">View Project</a>
+        </div>
+    </div>
+</body>
+</html>
